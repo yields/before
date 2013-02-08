@@ -2,7 +2,7 @@
   "name": "before",
   "repo": "yields/before",
   "description": "standalone before",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "keywords": ["before"],
   "dependencies": {},
   "development": {},
