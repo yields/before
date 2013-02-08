@@ -1,12 +1,10 @@
 {
   "name": "before",
   "repo": "yields/before",
-  "description": "insert an element before other one",
+  "description": "standalone before",
   "version": "0.0.1",
-  "keywords": [],
-  "dependencies": {
-    "yields/after": "*"
-  },
+  "keywords": ["before"],
+  "dependencies": {},
   "development": {},
   "license": "MIT",
   "scripts": [

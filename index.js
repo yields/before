@@ -1,11 +1,5 @@
 
 /**
- * dependencies.
- */
-
-var after = require('after');
-
-/**
  * insert `b` before `a`.
  *
  * @param {Element} a
@@ -14,5 +8,7 @@ var after = require('after');
  */
 
 module.exports = function(a, b){
-  return after(a, b, true);
+  if (a.parentNode) {
+    return a.parentNode.insertBefore(b, a);
+  }
 };
