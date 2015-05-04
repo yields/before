@@ -1,0 +1,9 @@
+{
+  "name": "before",
+  "repository": "https://github.com/yields/before",
+  "description": "standalone before",
+  "version": "0.1.0",
+  "keywords": ["before"],
+  "dependencies": {},
+  "license": "MIT"
+}
